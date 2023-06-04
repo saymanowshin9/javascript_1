@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- meta -->
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Bootstrap5</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>click the button for javascript defination</h1>
+      <button class="btn btn-dark" onclick="textChange()">click me</button>
+      <h2 id="h2">javascript</h2>
+    </div>
+    
+    <hr>
+  <div class="container">
+    <h1>click the button for show the date and time</h1>
+    <button type="button" class="btn btn-warning" onclick="dateAndTime()">show date and time</button>
+    <h2 id="date"></h2>
+    <hr>
+  </div>
+
+    
+    <div class="container">
+      <h1>click the button for light on/off</h1>
+      <button type="button" class="btn btn-danger" onclick="bulbOff()">OFF</button>
+      <button type="button" class="btn btn-success" onclick="bulbOn()">ON</button> 
+      <img id="img" src="images/bulboff.gif" alt="">  
+    </div>
+    <hr>
+
+    <div class="container">
+      <h1>put mouse on the button to change the font size</h1>
+      <button type="button" class="btn btn-success" onmouseover ="bigFont()">over mouse</button>
+      <h2 id="font">hello world</h2>
+    </div>
+    <hr>
+    <div class="container">
+      <h1>click the button to hide and show the text</h1>
+      <button type="button" class="btn btn-success" onclick="hide()">hide</button>
+      <button type="button" class="btn btn-success" onclick="show()">show</button>
+      <h2 id="hide&show">hello world</h2>
+    </div>
+
+    <hr>
+    <div class="container">
+    <h1>data addition</h1>
+     
+    <button type="button" class="btn btn-success" onclick="plus()">click me</button>
+    <span id="data"></span> 
+    </div>
+    <hr>
+    <!-- class use  -->
+    <div class="container">
+      <h1 class="p">hello world</h1>
+      <p class="p">hello world</p>
+      <p class="p">hello world</p>
+      <button type="button" class="btn btn-warning" onclick="bigFont1()">click me</button>
+       <button type="button" class="btn btn-warning" onclick="bigFont2()">click me</button>
+
+      <hr>
+    </div>
+    
+    <!-- js link -->
+     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
